@@ -27,9 +27,18 @@ namespace 计算器
             {
                 return _currnetTime;
             }
-            set{
+            set
+            {
                 _currnetTime = value;
             }
+        }
+
+        /// <summary>
+        /// Shows the time.
+        /// </summary>
+        public void ShowTime()
+        {
+            Console.WriteLine(string.Format("当前系统时间:{0}", DateTime.Now));
         }
 
     }
