@@ -41,5 +41,13 @@ namespace 计算器
             Console.WriteLine(string.Format("当前系统时间:{0}", DateTime.Now));
         }
 
+        /// <summary>
+        /// 重置当前系统时间
+        /// </summary>
+        public void ReserCurrentTime()
+        {
+            Console.WriteLine("重置当前系统时间");
+        }
+
     }
 }
